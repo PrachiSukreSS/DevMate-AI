@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.py[cod]
+*.db
+
+backend/vector_store/
+
+frontend/node_modules/
+frontend/dist/

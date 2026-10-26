@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devmate-ai-backend"
+version = "0.1.0"
+description = "A learning-first software investigation assistant"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]>=0.115,<1.0",
+    "openai>=1.66,<3.0",
+    "python-multipart>=0.0.9,<1.0",
+    "langchain-core>=1.0,<2.0",
+    "langgraph>=1.0,<2.0",
+    "langgraph-checkpoint-sqlite>=3.0,<4.0",
+    "fastembed>=0.8,<1.0",
+    "chromadb>=1.0,<2.0",
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]
+
+
+
+

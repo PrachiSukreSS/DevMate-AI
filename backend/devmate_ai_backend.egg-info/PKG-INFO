@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: devmate-ai-backend
+Version: 0.1.0
+Summary: A learning-first software investigation assistant
+Requires-Python: >=3.11
+Requires-Dist: fastapi[standard]<1.0,>=0.115
+Requires-Dist: openai<3.0,>=1.66
+Requires-Dist: python-multipart<1.0,>=0.0.9
+Requires-Dist: langchain-core<2.0,>=1.0
+Requires-Dist: langgraph<2.0,>=1.0
+Requires-Dist: langgraph-checkpoint-sqlite<4.0,>=3.0
+Requires-Dist: fastembed<1.0,>=0.8
+Requires-Dist: chromadb<2.0,>=1.0
